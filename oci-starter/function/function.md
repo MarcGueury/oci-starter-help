@@ -115,6 +115,8 @@ It will build all and at the end you will see:
 - Rest Info API : https://xxxxxx.apigateway.eu-xxxx.oci.customer-oci.com/starter/info
 ```
 
+In cold start, the first function call with take about 40 secs to run. If you want instant response, you need to configure the [Provisioned Concurrency](https://docs.oracle.com/en-us/iaas/Content/Functions/Tasks/functionsusingprovisionedconcurrency.htm].
+
 Click on the URL or go to the link to check that it works.
 
 ## Task 4: More info
