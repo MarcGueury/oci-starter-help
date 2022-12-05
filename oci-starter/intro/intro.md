@@ -12,7 +12,7 @@ In this tutorial, we will create custom Cloud Native application using:
 - Terraform scripts (or Resource Manager)
 - A Compute or Kubernetes, Serverless (Function)
 - An user interface in HTML or ReactJS, Angular, JET
-- A backend using Java or Node, Python, .NET, ORDS
+- A backend using Java or Node, Python, .NET, Go, ORDS
     - For Java: 
         - Framework: SpringBoot or Helidon, Tomcat, Micronaut
         - VM: JDK or SpringBoot
