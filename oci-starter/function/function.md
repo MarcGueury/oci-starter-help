@@ -1,5 +1,5 @@
 
-# Create Cloud Native Serverless Function
+# Create Cloud Native Serverless Functions
 
 ## Introduction
 
