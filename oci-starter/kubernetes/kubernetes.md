@@ -1,5 +1,5 @@
 
-# Create Cloud Native PODS with Kubernetes (OKE) 
+# Create Cloud Native Containers using Kubernetes (OKE) 
 
 ## Introduction
 

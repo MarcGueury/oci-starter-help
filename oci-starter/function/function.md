@@ -1,5 +1,5 @@
 
-# Create Cloud Native PODS with Function (Serverless) 
+# Create Cloud Native Serverless Function
 
 ## Introduction
 

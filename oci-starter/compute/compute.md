@@ -1,5 +1,5 @@
 
-# Create a Compute with a Cloud Native
+# Create Cloud Native Applications on Compute
 
 ## Introduction
 
