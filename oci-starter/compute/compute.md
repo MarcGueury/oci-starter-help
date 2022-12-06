@@ -17,7 +17,7 @@ The steps are identical for all other user interfaces, backends or database.
 
 ## Task 1: Create the Application
 
-In the OCI Starter website: 
+Using your browser:
 - Go to https://starter.wedoteam.io/
 - Choose 
   - Compute
@@ -48,7 +48,7 @@ cat README.md
 ## Task 2: Main files
 
 In the code editor:
-- Click *File* /  *Open*
+- Click *File* / *Open*
 - Choose the directory *starter*
 - Click *Open*
 
@@ -83,7 +83,7 @@ Edit the env.sh file:
 
 ## Task 3: Build.sh
 
-Before to run the build. Notice that the build will create:
+During the build, Terraform will create:
 - Network resources: VCN, Subnet
 - A database
 - A compute instance to run NGINX + the Java App
@@ -107,11 +107,11 @@ Click on the URL or go to the link to check that it works.
 
 ## Task 4: More info
 
-During the build, it will generate 2 files:
+During the build, it has generated 2 files:
 - id\_starter\_rsa : a ssh private key to login to the compute and bastion
 - id\_starter\_rsa.pub : the public ssh private key installed in the compute and bastion
 
-You can check the compute by running:
+You can login to the compute by running:
 ```
 bin/ssh_compute.sh
 ```

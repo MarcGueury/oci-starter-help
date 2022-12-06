@@ -7,7 +7,7 @@ Estimated time: 30 minutes
 
 ![Introduction Usecase](images/starter-wedoteamio.png =100%x*)
 
-In this tutorial, we will create custom Cloud Native application using:
+In this tutorial, we will create custom Cloud Native applications using:
 
 - Terraform scripts (or Resource Manager)
 - A Compute or Kubernetes, Serverless (Function)
@@ -26,7 +26,7 @@ In this tutorial, we will create custom Cloud Native application using:
 ### How
 
 It works like this:
-- We will go to a Website https://starter.wedoteam.io/ to generate a zip file with all what we need
+- We will go to the Website https://starter.wedoteam.io/ to generate a zip file with all what we need
 - Check what it contains
 - Run ./build.sh
 
