@@ -69,7 +69,7 @@ The main files are:
 - bin            : with some helper commands
     - bin/ssh\_bastion.sh (to ssh to the Bastion)
 
-![Editor env.sh](images/starter-kubernetes-env.png)
+![Editor env.sh](images/starter-compute-env.png)
 
 We will need an AUTH Token to login to the Docker Container Registry.
 Let's create one:
