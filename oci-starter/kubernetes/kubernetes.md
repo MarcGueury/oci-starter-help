@@ -61,11 +61,12 @@ The main files are:
 - env.sh        : Contains the settings of your project
 
 #### Directories
-- app\_src       : Source of the Application (Command: build_app.sh)
-- ui\_src        : Source of the User Interface (Command: build_ui.sh)
-- db\_src        : SQL files of the database
-- terraform      : Terraforms scripts (Command: plan.sh / apply.sh)
-- oke            : Contains the Kubernetes scripts
+- src           : Sources files
+    - app         : Source of the Backend Application (Command: build_app.sh)
+    - ui          : Source of the User Interface (Command: build_ui.sh)
+    - db          : SQL files of the database
+    - terraform   : Terraform scripts (Command: plan.sh / apply.sh)
+    - oke         : Contains the deployment files to Kubernetes
 - bin            : with some helper commands
     - bin/ssh\_bastion.sh (to ssh to the Bastion)
 
