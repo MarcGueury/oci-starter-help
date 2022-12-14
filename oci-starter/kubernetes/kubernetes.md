@@ -70,8 +70,6 @@ The main files are:
 - bin            : with some helper commands
     - bin/ssh\_bastion.sh (to ssh to the Bastion)
 
-![Editor env.sh](images/starter-compute-env.png)
-
 We will need an AUTH Token to login to the Docker Container Registry.
 Let's create one:
 - Click on the top left icon
@@ -92,6 +90,8 @@ Edit the env.sh file:
     - If not filled, the "db password" will be randomly generated
 - Ideally, you can also use an existing compartment if you have one. 
     - If not, the script will create a "oci-starter" compartment
+
+![Editor env.sh](images/starter-kubernetes-env.png)
 
 ## Task 3: Build.sh
 
@@ -116,6 +116,12 @@ It will build all and at the end you will see:
 ```
 
 Click on the URL or go to the link to check that it works.
+- All running in a Kubernetes 
+- You have ReactJS pages doing REST calls 
+- To a NodeJS - Express backend
+- That backend gets data from MySQL database
+
+![Result](images/starter-kubernetes-result.png =60%x*)
 
 ## Task 4: More info
 

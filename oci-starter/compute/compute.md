@@ -105,6 +105,12 @@ It will build all and at the end you will see:
 ```
 
 Click on the URL or go to the link to check that it works.
+- All running in a Compute 
+- You have HTML pages in NGINX doing REST calls 
+- To a Java SpringBoot backend
+- That backend gets data from the Autonomous database. 
+
+![Result](images/starter-compute-result.png)
 
 ## Task 4: More info
 
