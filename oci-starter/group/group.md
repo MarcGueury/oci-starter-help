@@ -69,7 +69,7 @@ Notice that you have 2 directories:
 - starter for the application
 
 Configure the script:
-- In Cloud Shell Or Cloud Editor, edit the file *group_common/env.sh*
+- In Cloud Shell Or Cloud Editor, edit the file *group\_common/env.sh*
 - It is the exact same steps than for Kubernetes. You need to enter the TF\_VAR\_auth\_token (OCI Auth Token). Please refer lab 2 Kubernetes steps.
 
 ![Group App1 Env](images/starter-group-app1-env.png =80%x*)
@@ -88,10 +88,13 @@ When done, check if the application works:
 http://123.123.123.123/starter/
 ```
 
+It is also interesting to look at the created file: group\_common\_env.sh. It contains all the settings of the group.
+It is reused by all applications.
+
 ## Task 2: Create a second application 
 
-This second application will reuse the same component than the previous one. (Network, Kubernetes, DB)
-So, practically, it will just create new PODS in the cluster.
+This second application will reuse the components of group: Network, Kubernetes, database.
+In this case, this means that it will just create new PODS in Kubernetes.
 
 - Change the prefix to *starter2*
 - Click on *Advanced*
@@ -111,7 +114,7 @@ cd starter2
 cat README.md
 ```
 
-Run the build. Itt will take the environment variables from the group_common_env.sh created above.
+Run the build. Itt will take the environment variables from the group\_common\_env.sh created above.
 
 ```
 ./build.sh
