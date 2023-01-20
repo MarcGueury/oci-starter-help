@@ -7,13 +7,15 @@ Estimated time: 10 min
 
 ### Objectives
 
-![Architecture Function](images/starter-function.png =50%x*)
+![Architecture Function](images/architecture_function.png =50%x*)
 
 In this sample, using terraform, we will create a Function with Python, an Object Storage for the HTML and an Autonomous Database. 
 
 The steps are identical for all other user interfaces, backends or database.
 
 ### Prerequisites
+
+Please read the chapter: Introduction and Get Started.
 
 ## Task 1: Create the Application
 

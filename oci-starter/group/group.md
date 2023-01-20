@@ -46,10 +46,11 @@ Here is the architecture of a group of applications sharing common resources wit
 
 ### Group Common Resources and First application
 
+- Go to https://starter.wedoteam.io/
 - Click on *Advanced*
 - Choose Group *New* 
     - You may click on the "..." to get more explanation
-- Keep the *group name* "dev",    
+- Keep the *Group Name* "dev",    
 - Choose Deployment *Kubernetes*
 - Click *Cloud Shell*
 
@@ -128,6 +129,15 @@ http://123.123.123.123/starter2/
 ```
 
 Congratulation, if you reached this point, you created a group of 2 microservices using the same common resources !!
+
+## More info
+
+To clean up, run 
+```
+<copy>
+./destroy_group.sh
+</copy>
+```
 
 ## Acknowledgements 
 - **Author**

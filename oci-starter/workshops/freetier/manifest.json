@@ -19,15 +19,19 @@
             "filename": "./../../kubernetes/kubernetes.md"
         },
         {
-            "title": "Lab 3: Functions",
+            "title": "Lab 3: Container Instances",
+            "filename": "./../../container_instance/container_instance.md"
+        },        
+        {
+            "title": "Lab 4: Functions",
             "filename": "./../../function/function.md"
         },
         {
-            "title": "Lab 4: Groups",
+            "title": "Lab 5: Groups",
             "filename": "./../../group/group.md"
         },           
         {
-            "title": "Lab 5: Advanced",
+            "title": "Lab 6: Advanced",
             "filename": "./../../advanced/advanced.md"
         },        
         {
