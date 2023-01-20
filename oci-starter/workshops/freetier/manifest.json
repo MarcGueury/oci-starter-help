@@ -23,7 +23,11 @@
             "filename": "./../../function/function.md"
         },
         {
-            "title": "Lab 4: Advanced",
+            "title": "Lab 4: Groups",
+            "filename": "./../../group/group.md"
+        },           
+        {
+            "title": "Lab 5: Advanced",
             "filename": "./../../advanced/advanced.md"
         },        
         {
