@@ -1,5 +1,5 @@
 
-# Groups
+# Group sharing Common Resources
 
 Groups allow to create "Common Resources" that you will share between several applications.
 It can be:
@@ -12,7 +12,7 @@ It can be:
 
 But when you enable the *Advanced* option, you have 3 choices for Group: *None / New / Existing*
 
-- A application is by default standalone. Using no group: *None*
+- An application is by default standalone. Using no group: *None*
 - a new group with a first application: *New*
 - or a new application to use with an existing group: *Existing*
 
@@ -66,7 +66,7 @@ cat README.md
 ```
 
 Notice that you have 2 directories:
-- group_common for the common resources of the group (OKE, ATP)
+- group\_common for the common resources of the group (OKE, ATP)
 - starter for the application
 
 Configure the script:
@@ -81,7 +81,7 @@ Configure the script:
 ./build_group.sh
 ```
 
-The build_group will first build group_common and then the application starter.
+The *build\_group.sh* will first build the directory *group\_common* and then the directory *starter*.
 
 When done, check if the application works:
 

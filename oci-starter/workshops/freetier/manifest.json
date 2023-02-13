@@ -27,11 +27,15 @@
             "filename": "./../../function/function.md"
         },
         {
-            "title": "Lab 5: Groups",
+            "title": "Lab 5: How to Customize",
+            "filename": "./../../customize/customize.md"
+        },         
+        {
+            "title": "Lab 6: Groups",
             "filename": "./../../group/group.md"
         },           
         {
-            "title": "Lab 6: Advanced",
+            "title": "Lab 7: Advanced",
             "filename": "./../../advanced/advanced.md"
         },        
         {
